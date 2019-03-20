@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LogRegPanelComponent } from './log-reg-panel/log-reg-panel.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogRegPanelComponent
   ],
   imports: [
     BrowserModule,
